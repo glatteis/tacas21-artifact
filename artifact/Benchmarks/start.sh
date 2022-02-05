@@ -10,7 +10,10 @@
 #SBATCH -o /home/%u/output/%x.%A_%4a.out
 
 ### Timelimit in hours:minutes:seconds
-#SBATCH -t 48:00:00
+#SBATCH -t 2:00:00
+
+### Array job
+#SBATCH --array=0-149
 
 ### Number of available threads
 #SBATCH --cpus-per-task=1
@@ -28,4 +31,4 @@ source $HOME/hpc-scripts/prepareEnvironmentGcc.sh
 ### Change Directory to your working directory (binaries, etc)
 cd $HOME/tacas-artifact/artifact/Benchmarks
 
-./run_all.sh
+./run_all_slurm.sh

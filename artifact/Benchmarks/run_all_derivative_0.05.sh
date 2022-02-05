@@ -2,6 +2,12 @@
 set -e
 set -x
 
+./run_one.sh evade 1,2,0,1 derivative 0.05
+./run_one.sh evade 1,2,1,1 derivative 0.05
+./run_one.sh evade 1,2,3,1 derivative 0.05
+./run_one.sh evade 1,2,0,1 derivative 0.05
+./run_one.sh evade 1,2,1,2 derivative 0.05
+./run_one.sh evade 1,2,3,2 derivative 0.05
 ./run_one.sh nrp 5,1 derivative 0.05
 ./run_one.sh nrp 6,1 derivative 0.05
 ./run_one.sh nrp 7,1 derivative 0.05
@@ -21,10 +27,3 @@ set -x
 ./run_one.sh maze 25 derivative 0.05
 ./run_one.sh maze 1000 derivative 0.05
 ./run_one.sh maze 10000 derivative 0.05
-
-./run_one.sh evade 1,2,0,1 derivative 0.05
-./run_one.sh evade 1,2,1,1 derivative 0.05
-./run_one.sh evade 1,2,3,1 derivative 0.05
-./run_one.sh evade 1,2,0,1 derivative 0.05
-./run_one.sh evade 1,2,1,2 derivative 0.05
-./run_one.sh evade 1,2,3,2 derivative 0.05
