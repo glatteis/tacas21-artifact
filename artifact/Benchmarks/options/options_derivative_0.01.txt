@@ -1,0 +1,1 @@
+--use-monotonicity --mon:useBounds --mon:monotonicity-type lifting --eq-parameter-reduction --splitting-threshold 1 --extremum max 0.01

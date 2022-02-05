@@ -1,0 +1,51 @@
+Storm-pars 1.6.4 (dev)
+
+Date: Sat Feb  5 16:11:34 2022
+Command line arguments: --explicit-drn './models/evade_1,2,0,1.drn' --prop ./properties/property_evade.prctl --regionbound 0.1 --bisimulation --use-monotonicity '--mon:useBounds' --splitting-threshold 1 --extremum max 0.1
+Current working directory: /rwthfs/rz/cluster/home/wx133755/tacas21-artifact/artifact/Benchmarks
+
+Time for model construction: 0.042s.
+
+-------------------------------------------------------------- 
+Model type: 	DTMC (sparse)
+States: 	129
+Transitions: 	249
+Reward Models:  none
+State Labels: 	4 labels
+   * goal -> 8 item(s)
+   * traps -> 12 item(s)
+   * maxScan -> 29 item(s)
+   * init -> 1 item(s)
+Choice Labels: 	none
+-------------------------------------------------------------- 
+
+Time for model simplification: 0.001s.
+
+-------------------------------------------------------------- 
+Model type: 	DTMC (sparse)
+States: 	83
+Transitions: 	228
+Reward Models:  none
+State Labels: 	5 labels
+   * goal -> 1 item(s)
+   * init -> 1 item(s)
+   * maxScan -> 13 item(s)
+   * traps -> 2 item(s)
+   * target -> 1 item(s)
+Choice Labels: 	none
+-------------------------------------------------------------- 
+
+Time for model preprocessing: 0.001s.
+
+-------------------------------------------------------------- 
+Model type: 	DTMC (sparse)
+States: 	43
+Transitions: 	116
+Reward Models:  none
+State Labels: 	3 labels
+   * traps -> 2 item(s)
+   * init -> 1 item(s)
+   * goal -> 1 item(s)
+Choice Labels: 	none
+-------------------------------------------------------------- 
+Computing extremal value for property 1: P=? [(!"traps") U "goal"] within region 1/10<=p64_0<=9/10,1/10<=p63_0<=9/10,1/10<=p62_0<=9/10,1/10<=p60_0<=9/10,1/10<=p58_0<=9/10,1/10<=p56_0<=9/10,1/10<=p53_0<=9/10,1/10<=p52_0<=9/10,1/10<=p55_0<=9/10,1/10<=p51_0<=9/10,1/10<=p50_0<=9/10,1/10<=p49_0<=9/10,1/10<=p47_0<=9/10,1/10<=p44_0<=9/10,1/10<=p42_0<=9/10,1/10<=p41_0<=9/10,1/10<=p40_0<=9/10,1/10<=p35_0<=9/10,1/10<=p39_0<=9/10,1/10<=p54_0<=9/10,1/10<=p25_0<=9/10,1/10<=p14_0<=9/10,1/10<=p34_0<=9/10,1/10<=p33_0<=9/10,1/10<=p12_0<=9/10,1/10<=p32_0<=9/10,1/10<=p31_0<=9/10,1/10<=p30_0<=9/10,1/10<=p29_0<=9/10,1/10<=p36_0<=9/10,1/10<=p26_0<=9/10,1/10<=p24_0<=9/10,1/10<=p43_0<=9/10,1/10<=p13_0<=9/10,1/10<=p10_0<=9/10,1/10<=p3_0<=9/10,1/10<=p48_0<=9/10,1/10<=p6_0<=9/10,1/10<=p2_0<=9/10,1/10<=p59_0<=9/10; and using monotonicity ...
