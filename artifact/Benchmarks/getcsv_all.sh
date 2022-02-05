@@ -3,6 +3,8 @@ cat output/header_integrated.txt > integrated_0.1.csv
 cat output/header_integrated.txt > integrated_0.05.csv
 cat output/header_vanilla > vanilla_0.1.csv
 cat output/header_vanilla > vanilla_0.05.csv
+cat output/header_derivative > derivative_0.1.csv
+cat output/header_derivative > derivative_0.05.csv
 
 ./getcsv_integrated.sh nrp_5,1 integrated_0.1.csv
 ./getcsv_integrated.sh nrp_6,1 integrated_0.1.csv
@@ -92,3 +94,47 @@ cat output/header_vanilla > vanilla_0.05.csv
 ./getcsv_vanilla.sh herman_13,15 vanilla_0.05.csv
 ./getcsv_vanilla.sh herman_13,25 vanilla_0.05.csv
 ./getcsv_vanilla.sh herman_13,35 vanilla_0.05.csv
+./getcsv_derivative.sh nrp_5,1 derivative_0.1.csv
+./getcsv_derivative.sh nrp_6,1 derivative_0.1.csv
+./getcsv_derivative.sh nrp_7,1 derivative_0.1.csv
+./getcsv_derivative.sh nrp_8,1 derivative_0.1.csv
+./getcsv_derivative.sh nrp_9,1 derivative_0.1.csv
+./getcsv_derivative.sh nrp_10,1 derivative_0.1.csv
+./getcsv_derivative.sh nrp_11,1 derivative_0.1.csv
+./getcsv_derivative.sh nrp_12,1 derivative_0.1.csv
+./getcsv_derivative.sh nrp_13,1 derivative_0.1.csv
+./getcsv_derivative.sh nrp_14,1 derivative_0.1.csv
+./getcsv_derivative.sh nrp_15,1 derivative_0.1.csv
+./getcsv_derivative.sh evade_1,2,0,1 derivative_0.1.csv
+./getcsv_derivative.sh evade_1,2,1,1 derivative_0.1.csv
+./getcsv_derivative.sh evade_1,2,3,1 derivative_0.1.csv
+./getcsv_derivative.sh evade_1,2,0,2 derivative_0.1.csv
+./getcsv_derivative.sh evade_1,2,1,2 derivative_0.1.csv
+./getcsv_derivative.sh evade_1,2,3,2 derivative_0.1.csv
+./getcsv_derivative.sh herman_11,10 derivative_0.1.csv
+./getcsv_derivative.sh herman_11,15 derivative_0.1.csv
+./getcsv_derivative.sh herman_13,15 derivative_0.1.csv
+./getcsv_derivative.sh herman_13,25 derivative_0.1.csv
+./getcsv_derivative.sh herman_13,35 derivative_0.1.csv
+./getcsv_derivative.sh nrp_5,1 derivative_0.05.csv
+./getcsv_derivative.sh nrp_6,1 derivative_0.05.csv
+./getcsv_derivative.sh nrp_7,1 derivative_0.05.csv
+./getcsv_derivative.sh nrp_8,1 derivative_0.05.csv
+./getcsv_derivative.sh nrp_9,1 derivative_0.05.csv
+./getcsv_derivative.sh nrp_10,1 derivative_0.05.csv
+./getcsv_derivative.sh nrp_11,1 derivative_0.05.csv
+./getcsv_derivative.sh nrp_12,1 derivative_0.05.csv
+./getcsv_derivative.sh nrp_13,1 derivative_0.05.csv
+./getcsv_derivative.sh nrp_14,1 derivative_0.05.csv
+./getcsv_derivative.sh nrp_15,1 derivative_0.05.csv
+./getcsv_derivative.sh evade_1,2,0,1 derivative_0.05.csv
+./getcsv_derivative.sh evade_1,2,1,1 derivative_0.05.csv
+./getcsv_derivative.sh evade_1,2,3,1 derivative_0.05.csv
+./getcsv_derivative.sh evade_1,2,0,2 derivative_0.05.csv
+./getcsv_derivative.sh evade_1,2,1,2 derivative_0.05.csv
+./getcsv_derivative.sh evade_1,2,3,2 derivative_0.05.csv
+./getcsv_derivative.sh herman_11,10 derivative_0.05.csv
+./getcsv_derivative.sh herman_11,15 derivative_0.05.csv
+./getcsv_derivative.sh herman_13,15 derivative_0.05.csv
+./getcsv_derivative.sh herman_13,25 derivative_0.05.csv
+./getcsv_derivative.sh herman_13,35 derivative_0.05.csv
